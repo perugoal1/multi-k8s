@@ -6,8 +6,8 @@ docker push perugoal1/multi-client:latest
 docker push perugoal1/multi-client:$SHA
 docker push perugoal1/multi-server:latest
 docker push perugoal1/multi-server:$SHA
-dokcer push perugoal1/multi-worker:latest
-dokcer push perugoal1/multi-worker:$SHA
+docker push perugoal1/multi-worker:latest
+docker push perugoal1/multi-worker:$SHA
 
 
 kubectl apply -f k8s
