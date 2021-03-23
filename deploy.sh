@@ -1,5 +1,5 @@
 docker build -t perugoal1/multi-client:latest -t perugoal1/multi-client:$SHA -f ./client/Dockerfile ./client
-docker build -t perugoal1/multi-server:latest -t perugoal1/multi-server:$SHA -f ./server/Dockerfilev ./server
+docker build -t perugoal1/multi-server:latest -t perugoal1/multi-server:$SHA -f ./server/Dockerfile ./server
 docker build -t perugoal1/multi-worker:latest -t perugoal1/multi-worker:$SHA -f ./worker/Dockerfile ./worker
 
 docker push perugoal1/multi-client:latest
